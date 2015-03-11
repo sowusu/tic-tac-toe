@@ -14,6 +14,7 @@
 		4B27FCE41A9845AA008C6663 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B27FCE31A9845AA008C6663 /* Images.xcassets */; };
 		4B27FCE71A9845AA008C6663 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B27FCE51A9845AA008C6663 /* LaunchScreen.xib */; };
 		4B27FCF31A9845AA008C6663 /* OWUSU_LAB3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B27FCF21A9845AA008C6663 /* OWUSU_LAB3Tests.m */; };
+		4B27FCFE1A984ECD008C6663 /* tictactoe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B27FCFD1A984ECD008C6663 /* tictactoe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		4B27FCEC1A9845AA008C6663 /* OWUSU-LAB3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OWUSU-LAB3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B27FCF11A9845AA008C6663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B27FCF21A9845AA008C6663 /* OWUSU_LAB3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWUSU_LAB3Tests.m; sourceTree = "<group>"; };
+		4B27FCFC1A984ECD008C6663 /* tictactoe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tictactoe.h; sourceTree = "<group>"; };
+		4B27FCFD1A984ECD008C6663 /* tictactoe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tictactoe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				4B27FCDD1A9845AA008C6663 /* ViewController.h */,
 				4B27FCDE1A9845AA008C6663 /* ViewController.m */,
 				4B27FCE01A9845AA008C6663 /* Main.storyboard */,
+				4B27FCFC1A984ECD008C6663 /* tictactoe.h */,
+				4B27FCFD1A984ECD008C6663 /* tictactoe.m */,
 				4B27FCE31A9845AA008C6663 /* Images.xcassets */,
 				4B27FCE51A9845AA008C6663 /* LaunchScreen.xib */,
 				4B27FCD61A9845AA008C6663 /* Supporting Files */,
@@ -221,6 +226,7 @@
 			files = (
 				4B27FCDF1A9845AA008C6663 /* ViewController.m in Sources */,
 				4B27FCDC1A9845AA008C6663 /* AppDelegate.m in Sources */,
+				4B27FCFE1A984ECD008C6663 /* tictactoe.m in Sources */,
 				4B27FCD91A9845AA008C6663 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

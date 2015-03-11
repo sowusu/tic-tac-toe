@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,11 +16,224 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9v-Yf-yPC">
+                                <rect key="frame" x="186" y="175" width="67" height="70"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="46"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="markButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="e1h-pd-X62"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJt-hP-oOy">
+                                <rect key="frame" x="326" y="175" width="67" height="70"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="46"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="markButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="XgC-pO-vTT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MUZ-Wk-o1b">
+                                <rect key="frame" x="186" y="248" width="67" height="69"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="46"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="markButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="S5J-9e-aaF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cey-sx-FOp">
+                                <rect key="frame" x="256" y="248" width="67" height="69"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="46"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="markButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zyD-Vu-ucx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XB4-1c-Amn">
+                                <rect key="frame" x="326" y="248" width="67" height="69"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="46"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="markButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="aK7-pT-pY7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v7x-vw-kqe">
+                                <rect key="frame" x="186" y="321" width="67" height="71"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="46"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="markButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ABJ-IP-Nv1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LKl-Np-Shl">
+                                <rect key="frame" x="256" y="321" width="67" height="71"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="46"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="markButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="v2W-C8-UTS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qyR-9O-v0C">
+                                <rect key="frame" x="326" y="321" width="67" height="71"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="46"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="markButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Qr0-iH-AYS"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="TIC - TAC - TOE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SeX-dY-FJS">
+                                <rect key="frame" x="116" y="54" width="366" height="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yem-9G-b31">
+                                <rect key="frame" x="256" y="175" width="67" height="70"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="46"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="markButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0sG-uc-lC2"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="qeX-sW-yKd">
+                                <rect key="frame" x="144" y="425" width="191" height="29"/>
+                                <segments>
+                                    <segment title="1 Player"/>
+                                    <segment title="2 Players"/>
+                                </segments>
+                                <connections>
+                                    <action selector="setChoice:" destination="vXZ-lx-hvc" eventType="valueChanged" id="3IJ-lZ-qT3"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="yJr-yO-hGl">
+                                <rect key="frame" x="144" y="461" width="233" height="29"/>
+                                <segments>
+                                    <segment title="Player 1"/>
+                                    <segment title="Computer"/>
+                                    <segment title="Random"/>
+                                </segments>
+                            </segmentedControl>
+                            <button contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y8g-pN-YLA">
+                                <rect key="frame" x="144" y="503" width="116" height="47"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="PLAY">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playGame:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ppm-WS-IOr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nXC-ax-qgS">
+                                <rect key="frame" x="252" y="112" width="95" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="NEW GAME">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="restartGame:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gJI-s6-1VU"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w3D-tG-gtE">
+                                <rect key="frame" x="268" y="491" width="272" height="78"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Please choose one or two player game above and who should play first (player1, player2/computer or randomly choose)">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="qeX-sW-yKd" secondAttribute="centerX" constant="60.5" id="3iW-e0-0iC"/>
+                            <constraint firstItem="dJt-hP-oOy" firstAttribute="leading" secondItem="Yem-9G-b31" secondAttribute="trailing" constant="3" id="4fM-Rw-es0"/>
+                            <constraint firstItem="qyR-9O-v0C" firstAttribute="leading" secondItem="LKl-Np-Shl" secondAttribute="trailing" constant="8" placeholder="YES" id="8jU-dp-rqe"/>
+                            <constraint firstItem="LKl-Np-Shl" firstAttribute="leading" secondItem="v7x-vw-kqe" secondAttribute="trailing" constant="8" placeholder="YES" id="BcC-Ws-7Lc"/>
+                            <constraint firstItem="XB4-1c-Amn" firstAttribute="top" secondItem="dJt-hP-oOy" secondAttribute="bottom" constant="3" id="JY0-z8-qPl"/>
+                            <constraint firstItem="qyR-9O-v0C" firstAttribute="leading" secondItem="LKl-Np-Shl" secondAttribute="trailing" constant="3" id="K1g-4s-bzi"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="w3D-tG-gtE" secondAttribute="bottom" constant="31" id="KkH-9V-kQ7"/>
+                            <constraint firstItem="XB4-1c-Amn" firstAttribute="leading" secondItem="cey-sx-FOp" secondAttribute="trailing" constant="3" id="MN8-gX-5Ia"/>
+                            <constraint firstItem="XB4-1c-Amn" firstAttribute="top" secondItem="dJt-hP-oOy" secondAttribute="bottom" constant="8" placeholder="YES" id="OOg-pb-QgE"/>
+                            <constraint firstItem="MUZ-Wk-o1b" firstAttribute="top" secondItem="l9v-Yf-yPC" secondAttribute="bottom" constant="3" id="Rcp-zr-IEM"/>
+                            <constraint firstAttribute="centerX" secondItem="yJr-yO-hGl" secondAttribute="centerX" constant="39.5" id="S6o-eM-128"/>
+                            <constraint firstItem="MUZ-Wk-o1b" firstAttribute="top" secondItem="l9v-Yf-yPC" secondAttribute="bottom" constant="8" placeholder="YES" id="Sjz-r8-BHE"/>
+                            <constraint firstAttribute="centerX" secondItem="SeX-dY-FJS" secondAttribute="centerX" constant="1" id="Wjz-2O-wZG"/>
+                            <constraint firstItem="v7x-vw-kqe" firstAttribute="top" secondItem="MUZ-Wk-o1b" secondAttribute="bottom" constant="8" placeholder="YES" id="WqW-J8-Vyj"/>
+                            <constraint firstAttribute="centerX" secondItem="y8g-pN-YLA" secondAttribute="centerX" constant="98" id="Xrz-0L-g8U"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="w3D-tG-gtE" secondAttribute="trailing" constant="44" id="YU3-Vv-X5F"/>
+                            <constraint firstItem="qyR-9O-v0C" firstAttribute="top" secondItem="XB4-1c-Amn" secondAttribute="bottom" constant="4" id="Z66-bI-wYB"/>
+                            <constraint firstItem="XB4-1c-Amn" firstAttribute="leading" secondItem="cey-sx-FOp" secondAttribute="trailing" constant="8" placeholder="YES" id="Z8m-g6-oQL"/>
+                            <constraint firstItem="cey-sx-FOp" firstAttribute="leading" secondItem="MUZ-Wk-o1b" secondAttribute="trailing" constant="3" id="awn-Br-vwf"/>
+                            <constraint firstItem="cey-sx-FOp" firstAttribute="top" secondItem="Yem-9G-b31" secondAttribute="bottom" constant="3" id="bcG-P5-PIo"/>
+                            <constraint firstItem="dJt-hP-oOy" firstAttribute="leading" secondItem="Yem-9G-b31" secondAttribute="trailing" constant="8" placeholder="YES" id="biq-I7-ZgK"/>
+                            <constraint firstAttribute="centerX" secondItem="MUZ-Wk-o1b" secondAttribute="centerX" constant="83" id="dI5-eJ-tFd"/>
+                            <constraint firstItem="LKl-Np-Shl" firstAttribute="leading" secondItem="v7x-vw-kqe" secondAttribute="trailing" constant="3" id="dm3-xb-bfc"/>
+                            <constraint firstAttribute="centerX" secondItem="l9v-Yf-yPC" secondAttribute="centerX" constant="83" id="fjQ-1j-7WV"/>
+                            <constraint firstItem="v7x-vw-kqe" firstAttribute="top" secondItem="MUZ-Wk-o1b" secondAttribute="bottom" constant="4" id="gng-9R-Z1c"/>
+                            <constraint firstItem="Yem-9G-b31" firstAttribute="leading" secondItem="l9v-Yf-yPC" secondAttribute="trailing" constant="8" placeholder="YES" id="hG2-9S-IRW"/>
+                            <constraint firstItem="qyR-9O-v0C" firstAttribute="top" secondItem="XB4-1c-Amn" secondAttribute="bottom" constant="8" placeholder="YES" id="hIK-il-fLn"/>
+                            <constraint firstItem="cey-sx-FOp" firstAttribute="leading" secondItem="MUZ-Wk-o1b" secondAttribute="trailing" constant="8" placeholder="YES" id="hKI-bI-T7e"/>
+                            <constraint firstItem="LKl-Np-Shl" firstAttribute="top" secondItem="cey-sx-FOp" secondAttribute="bottom" constant="4" id="jR5-ff-yTE"/>
+                            <constraint firstItem="XB4-1c-Amn" firstAttribute="leading" secondItem="cey-sx-FOp" secondAttribute="trailing" constant="3" placeholder="YES" id="lrJ-kV-t4V"/>
+                            <constraint firstAttribute="centerX" secondItem="nXC-ax-qgS" secondAttribute="centerX" constant="0.5" id="mlW-ra-6p0"/>
+                            <constraint firstItem="LKl-Np-Shl" firstAttribute="top" secondItem="cey-sx-FOp" secondAttribute="bottom" constant="8" placeholder="YES" id="nNe-yx-1kR"/>
+                            <constraint firstItem="cey-sx-FOp" firstAttribute="top" secondItem="Yem-9G-b31" secondAttribute="bottom" constant="8" placeholder="YES" id="t4N-J0-y5x"/>
+                            <constraint firstItem="Yem-9G-b31" firstAttribute="leading" secondItem="l9v-Yf-yPC" secondAttribute="trailing" constant="3" id="tXi-iS-qP5"/>
+                            <constraint firstAttribute="centerX" secondItem="v7x-vw-kqe" secondAttribute="centerX" constant="83" id="tnF-Lq-xB8"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bottomCenterButton" destination="LKl-Np-Shl" id="dtJ-dt-x5h"/>
+                        <outlet property="bottomLeftButton" destination="v7x-vw-kqe" id="p4L-P7-YyK"/>
+                        <outlet property="bottomRightButton" destination="qyR-9O-v0C" id="BWN-PE-XlV"/>
+                        <outlet property="gameChoice" destination="qeX-sW-yKd" id="P3A-ch-dIz"/>
+                        <outlet property="messageBox" destination="w3D-tG-gtE" id="Sky-Su-Kv3"/>
+                        <outlet property="middleCenterButton" destination="cey-sx-FOp" id="6Rz-f1-Nvf"/>
+                        <outlet property="middleLeftButton" destination="MUZ-Wk-o1b" id="CEw-7P-zch"/>
+                        <outlet property="middleRightButton" destination="XB4-1c-Amn" id="0Jp-NB-PhZ"/>
+                        <outlet property="playGameButton" destination="y8g-pN-YLA" id="qdk-Ro-ggs"/>
+                        <outlet property="starter" destination="yJr-yO-hGl" id="7xl-rT-oOp"/>
+                        <outlet property="topCenterButton" destination="Yem-9G-b31" id="Bm4-eh-xsL"/>
+                        <outlet property="topLeftButton" destination="l9v-Yf-yPC" id="0PK-hK-ZUY"/>
+                        <outlet property="topRightButton" destination="dJt-hP-oOy" id="JeU-1q-fzR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="276" y="-122"/>
         </scene>
     </scenes>
 </document>
